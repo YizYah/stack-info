@@ -1,0 +1,15 @@
+userClass: user
+codeName: MyApp
+template:
+  dir: /home/yisroel/packages/packrat-ts-all/packrat
+  name: null
+  version: 1
+starter: /home/yisroel/packages/stack-info-all/stack-info.starter
+general:
+  packageName: stack-info
+  author: YizYah
+  owner: YizYah
+  description: returns a shema for a stack as needed by no-stack
+  repositoryName: stack-info
+  license: MIT
+  multi: false
