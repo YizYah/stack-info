@@ -42,6 +42,8 @@ returns a schema for an application stack.  Used by NoStack.
 
 # What
 A tool for specifying a schema for the data needs of an application.  Exports a [schema type](./src/custom/schema.ts).  Useful for templates for [NoStack](https://www.nostack.net/) applications, and for some templates that provide front end code for showing or using dynamic data.
+
+WARNING: still under construction.
  
 # Usage
 First, install the package:
