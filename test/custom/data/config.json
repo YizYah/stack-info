@@ -1,0 +1,39 @@
+{
+  "setupSequence": {},
+  "general": {},
+  "name": "react-no-stack-hosted",
+  "version": "1.1",
+  "category": "React NoStack",
+  "format": {
+    "customFileFilter": "*.{js,jsx,md}"
+  },
+  "dirs": {
+    "components": "src/components",
+    "queries": "src/components/source-props",
+    "custom": "src/custom",
+    "static": "src/static"
+  },
+  "static": {},
+  "componentTypes": {
+    "creation": {
+      "suffix": "CreationForm",
+      "singular": true
+    },
+    "list": {
+      "singular": false
+    },
+    "single": {
+      "singular": true
+    }
+  },
+  "dataFunctionTypes": {
+    "selectable": {
+      "components": [
+        "list",
+        "single"
+      ],
+      "requiresSource": true,
+      "nodeType": "selectable"
+    }
+  }
+}

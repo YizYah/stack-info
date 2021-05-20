@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "@types/node": "^14.14.19",
+    "cogs-box": "^1.2.0",
+    "inflection": "^1.13.1",
+    "magicalstrings": "^0.1.0",
     "path": "^0.12.7",
+    "traverse": "^0.6.6",
     "tslib": "^2.0.3"
   },
   "devDependencies": {
@@ -11,6 +15,7 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^7.26.0",
+    "fs-extra": "^8.1.0",
     "ghooks": "^2.0.4",
     "nyc": "^15.1.0",
     "prettier": "^2.2.1",
@@ -19,7 +24,7 @@
     "typescript": "^4.1.3"
   },
   "name": "stack-info",
-  "description": "returns a shema for a stack as needed by no-stack",
+  "description": "returns a schema for a stack as needed by no-stack",
   "author": "YizYah",
   "bugs": "https://github.com/YizYah/stack-info/issues",
   "engines": {
@@ -31,7 +36,8 @@
   "homepage": "https://github.com/YizYah/stack-info",
   "keywords": [
     "ts-packrat",
-    "geenee"
+    "geenee",
+    "NoStack"
   ],
   "license": "MIT",
   "main": "lib/index.js",
